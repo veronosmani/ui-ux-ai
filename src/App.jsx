@@ -1,9 +1,12 @@
-import React from 'react'
+import ButtonGradient from './assets/svg/ButtonGradient';
 
-export default function App() {
+const App = () => {
   return (
-    <div className='flex flex-col items-center py-10'>
-      <h1 className='text-3xl font-bold underline'>Hello World</h1>
-    </div>
+    <>
+      <h1 className='text-3xl underline font-bold'>Hello World!</h1>
+      <ButtonGradient />
+    </>
   )
 }
+
+export default App
