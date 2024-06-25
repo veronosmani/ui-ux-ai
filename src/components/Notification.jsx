@@ -22,8 +22,8 @@ const Notification = ({ className, title }) => {
           <ul className="flex -m-0.5">
             {notificationImages.map((item, index) => (
               <li
-                key={index}
                 className="flex w-6 h-6 border-2 border-n-12 rounded-full overflow-hidden"
+                key={index}
               >
                 <img
                   src={item}
