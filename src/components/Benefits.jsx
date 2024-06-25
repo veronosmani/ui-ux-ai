@@ -8,7 +8,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainware"
+          title="Chat Smarter, Not Harder with Brainwave"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -21,7 +21,7 @@ const Benefits = () => {
               key={item.id}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h5 className="h2 mb-5">{item.title}</h5>
+                <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
               </div>
             </div>
