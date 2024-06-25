@@ -64,8 +64,9 @@ const Hero = () => {
                 </ScrollParallax>
               </div>
             </div>
+            <Gradient />
           </div>
-          <div className="absolute -top-[54%] left-1/2 w=[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
               className="w-full"
@@ -77,6 +78,7 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
       </div>
+      <BottomLine />
     </Section>
   );
 };
