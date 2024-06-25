@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const Header = () => {
   const pathname = useLocation();
-    const [openNavigation, setopenNavigation] = useState(true)
+    const [openNavigation, setopenNavigation] = useState(false)
 
   return (
     <div className={`fixed top-0 left-0 w-full z-50 bg-n-8/90 backdrop-blur-sm border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${openNavigation ? 'bg-n-8' : 'bg-n-8/90 backdrop-blur-sm'}`}>
@@ -42,6 +42,9 @@ const Header = () => {
         </a>
         <Button className="hidden lg:flex" href="#login">
           Sign in
+        </Button>
+        <Button className='ml-auto'>
+            <MenuSvg />
         </Button>
       </div>
     </div>
