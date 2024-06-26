@@ -9,7 +9,7 @@ import { useState } from "react";
 
 const Header = () => {
   const pathname = useLocation();
-  const [openNavigation, setopenNavigation] = useState(true);
+  const [openNavigation, setopenNavigation] = useState(false);
 
   const toogleNavigation = () => {
     if (openNavigation) {
